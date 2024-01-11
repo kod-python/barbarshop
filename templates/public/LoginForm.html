@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/login.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Barbar login page</title>
+</head>
+<body>
+    <form action="#" method="post" id="login-form">
+    <div class="container">
+        <div class="head">
+            <h2>LogIn Into Your Account</h2>
+        </div>
+    
+        <div class="texbox">
+            <input type="text" placeholder="Username" name="" value=""> 
+            <input type="password" placeholder="Password" id="password" name="" value="">
+            <i class="fa-solid fa-user"></i>
+            <i class="fa-solid fa-eye" id="show-password"></i>
+        </div>
+    
+        <div class="button-container">
+            <input class="btn" type="submit" name="" value="Login">
+        </div>
+       <p>Please signup here <a href="{{url_for('signup')}}">signup</a></p> 
+    </div>
+</form>
+</body>
+</html>

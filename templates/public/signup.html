@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{url_for('static',filename='css/signup.css')}}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <title>Signup page</title>
+</head>
+<body>
+    <div class="head">
+        <h1> Welcome !!</h1>
+        <p>Create an account to continue with the application.</p>
+    </div>
+
+    <form action="#" method="post" id="signup-form">
+        <div class="container">
+        <h2>SignUp</h2>
+
+        <div class="textbox">
+            <input type="text" placeholder="Firstname" name="Firstname" value="" required>
+            <input type="text" placeholder="Lastname" name="Lastname" value="" required>
+            <input type="text" placeholder="username" name="username" value="" required>
+            <input type="password" placeholder="Password" name="password" value="" required>
+            <input type="password" placeholder="confirm_Password" name="confirm_password" value="" required>
+            <i class="fa-solid fa-eye" id="show-password"></i>
+            <p>&nbsp;&nbsp; By signing up, i agree with the Terms of Use & and Privacy Policy.</p>
+            <button class="btn" type="submit" name="" value="Signup">Signup
+            
+        </div>
+
+        <div class="text-container">
+         
+            <p>Aready have an account?<a href="{{url_for('index')}}">Login</a></p>
+
+           
+        </div>
+        
+        
+
+    </form>
+</body>
+</html>
