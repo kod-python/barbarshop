@@ -12,6 +12,10 @@ padding: 0;
     height: 100px;
   }
 
+.textbox{
+  display: flex;
+}
+
   .texbox input {
     flex: 1;
     margin-right: 10px;
@@ -81,7 +85,7 @@ padding: 0;
 .fa-eye{
   position: absolute;
   top: 48.5%;
-  margin-top: 12px;
+  margin-top: -7px;
   margin-left: 336px;
   color: rgb(56, 56, 56);
 }
@@ -89,7 +93,7 @@ padding: 0;
 .fa-user{
   position: absolute;
   top: 42%;
-  margin-top: 12px;
+  margin-top: -7px;
   margin-left: 338px;
   color:rgb(56, 56, 56) ;
 }
